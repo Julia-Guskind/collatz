@@ -4,10 +4,6 @@ import './box.css';
 var Latex = require('react-latex');
 
 class Box extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <section class="inputs">

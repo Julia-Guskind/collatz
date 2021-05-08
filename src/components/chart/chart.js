@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CanvasJSReact from '../../assets/canvasjs.react';
-var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 
@@ -8,7 +7,7 @@ var i = 0;
 
 function collatz(num, arr) {
     arr.push({x: i++, y: num})
-    if (num == 1)
+    if (num === 1)
         return arr 
     if (num % 2)
         return collatz(3*num + 1, arr)
