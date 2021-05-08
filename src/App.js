@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Box from './components/box/box.js';
+import Graph from './components/graph/graph.js';
+import Intro from './components/intro/intro.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="App-header">Collatz Conjecture Interactive Graph</h1>
+      <Intro></Intro>
+      <Box></Box>
+      <Graph></Graph>
     </div>
   );
-}
+  }
 
 export default App;

@@ -1,0 +1,25 @@
+.intro-title{
+    font-size: 32px;
+    margin: auto;
+    margin-left: 200px;
+    text-align: left;
+    text-shadow: 3px 3px 3px lightgray;
+}
+
+.intro-body {
+    text-align: left;
+    font-size: 16px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.demo-button {
+    margin: 15px;
+    background-color: lightgrey;
+    border-color: blue;
+    border-width: 5px;
+    font-size: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    color: black;
+}
